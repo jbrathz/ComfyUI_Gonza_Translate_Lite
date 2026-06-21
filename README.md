@@ -21,9 +21,12 @@ Gemma ตัวเล็กใช้ได้ถ้าจะเอา general-pu
 
 ## ติดตั้ง
 
-คัดลอกโฟลเดอร์นี้ไปไว้ใน `ComfyUI/custom_nodes/` แล้วติดตั้ง requirements:
+ติดตั้งผ่าน git ได้ตรง ๆ:
 
 ```bash
+cd /path/to/ComfyUI/custom_nodes
+git clone https://github.com/jbrathz/ComfyUI_Gonza_Translate_Lite.git
+
 cd /path/to/ComfyUI
 pip install -r custom_nodes/ComfyUI_Gonza_Translate_Lite/requirements.txt
 ```
