@@ -1,0 +1,5 @@
+# torch ปกติมากับ ComfyUI/RunPod อยู่แล้ว จึงไม่ pin ซ้ำที่นี่
+transformers>=4.41,<5
+sentencepiece>=0.2.0
+sacremoses>=0.1.1
+huggingface_hub>=0.23
