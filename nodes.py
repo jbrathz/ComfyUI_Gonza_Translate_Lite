@@ -163,7 +163,7 @@ class TranslateLiteNode:
     RETURN_TYPES = ("STRING", "CONDITIONING")
     RETURN_NAMES = ("STRING", "CONDITIONING")
     FUNCTION = "translate"
-    CATEGORY = "GonzaLomo/Prompt"
+    CATEGORY = "ThaiFlux Flow/Prompt"
 
     def translate(self, from_lang: str, to_lang: str, text: str, engine: str):
         translated = _translate_text(text, engine)
